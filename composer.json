@@ -1,0 +1,18 @@
+{
+    "name": "administrator/library",
+    "description": "library composer hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "sofyan"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sofyan\\Belajar\\":"src/"
+        }
+    }
+}
