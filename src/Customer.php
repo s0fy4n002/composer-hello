@@ -9,7 +9,7 @@ namespace Sofyan\Belajar{
             
         }
 
-        public function sayHello($name):string
+        public function sayHello($name = "Guest"):string
         {
             return "Hello $name nama saya adalah $this->name".PHP_EOL;
         }
